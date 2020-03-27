@@ -1,0 +1,52 @@
+.green-box {
+	background-color: #56836F;
+	border: 2px solid #006837;
+	padding: 49px 50px 80px 50px;
+}
+/*Base classes*/
+.f-left {
+	float: left;
+}
+.f-right {
+	float: right;
+}
+/*Header*/
+.clear {
+	clear: right;
+}
+.navigation-li {
+	display: inline-block;
+	margin-right:50px;
+}
+.header-wraper {
+	margin-bottom: 60px;
+}
+.nav-a {
+	font-size: 48px;
+	color: #fff;
+	text-transform: uppercase;
+}
+/*Yellow-boxes*/
+.container {
+	width: 1158px;
+	margin: 0 auto;
+}
+.yellow-box {
+	width: 500px;
+	background-color: #FCEE21;
+	padding:26px;
+}
+.container::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.size {
+	margin-bottom: 21px;
+}
+.m-right {
+	margin-right: 20px;
+}
+.m-left {
+	margin-left: 20px;
+}
